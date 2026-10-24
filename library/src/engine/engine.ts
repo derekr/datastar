@@ -116,9 +116,20 @@ const aliasedIgnoreAttr = `[${aliasedIgnore}]`
 const shouldIgnore = (el: HTMLOrSVG) =>
   el.hasAttribute(`${aliasedIgnore}__self`) || !!el.closest(aliasedIgnoreAttr)
 
+// Whether an element has any data-* attribute. Elements without one have
+// nothing to apply, so they skip the ignore lookup (a `closest` call) and
+// the dataset and attribute walks below.
+const hasDataAttribute = (el: HTMLOrSVG): boolean => {
+  const attrs = el.attributes
+  for (let i = 0; i < attrs.length; i++) {
+    if (attrs[i].name.startsWith('data-')) return true
+  }
+  return false
+}
+
 const applyEls = (els: Iterable<HTMLOrSVG>, onlyNew?: boolean): void => {
   for (const el of els) {
-    if (!shouldIgnore(el)) {
+    if (hasDataAttribute(el) && !shouldIgnore(el)) {
       const appliedKeys = new Set<string>()
       for (const key in el.dataset) {
         const attrKey = key.replace(/[A-Z]/g, '-$&').toLowerCase()
