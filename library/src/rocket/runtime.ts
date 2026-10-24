@@ -343,10 +343,12 @@ const releaseSpeculativeRocketHosts = (root: ParentNode = document) => {
 // Guard unresolved Rocket hosts before custom-element upgrade.
 //
 // Defer unresolved light hosts or shadow-host children so Datastar cannot evaluate Rocket-local directives before scoping.
-const markPendingRocketHosts = (root: ParentNode) => {
+const markPendingRocketHosts = (root: ParentNode, deep = true) => {
   const nodes =
     root instanceof Element
-      ? [root, ...root.querySelectorAll('*')]
+      ? deep
+        ? [root, ...root.querySelectorAll('*')]
+        : [root]
       : [...root.querySelectorAll('*')]
   for (const node of nodes) {
     if (!(node instanceof HTMLElement)) continue
@@ -416,8 +418,9 @@ const observePendingRocketHosts = () => {
       for (const node of record.addedNodes) {
         if (node instanceof Element) markPendingRocketHosts(node)
       }
+      // The added nodes were walked above and the target's other descendants when they were added, so only the target itself is left: re-walking its whole subtree for every record makes stamping rows into one parent (`data-for`) quadratic.
       if (record.target instanceof Element) {
-        markPendingRocketHosts(record.target)
+        markPendingRocketHosts(record.target, false)
       }
     }
   }).observe(document.documentElement, {
