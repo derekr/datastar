@@ -53,22 +53,41 @@ export const attribute = <R extends Requirement, B extends boolean>(
   queuedAttributes.push(plugin as unknown as AttributePlugin)
 
   if (queuedAttributes.length === 1) {
-    setTimeout(() => {
-      for (const attribute of queuedAttributes) {
-        queuedAttributeNames.add(attribute.name)
-        attributePlugins.set(attribute.name, attribute)
-      }
-      pluginNames = undefined
-      queuedAttributes.length = 0
-      const roots = observedRoots.size
-        ? [...observedRoots]
-        : [DOCUMENT.documentElement]
-      for (const root of roots) {
-        applyQueued(root, !observedRoots.has(root))
-      }
-      queuedAttributeNames.clear()
-    })
+    setTimeout(flushQueued)
   }
+}
+
+// Plugins registered while the first apply is yielding wait for it to
+// finish, as they would have if it had run in one task.
+let initialApplyDone: (() => void)[] | undefined
+
+const flushQueued = (): void => {
+  if (initialApplyDone) {
+    initialApplyDone.push(flushQueued)
+    return
+  }
+  for (const attribute of queuedAttributes) {
+    queuedAttributeNames.add(attribute.name)
+    attributePlugins.set(attribute.name, attribute)
+  }
+  pluginNames = undefined
+  queuedAttributes.length = 0
+  if (!observedRoots.size) {
+    // The first apply covers the whole document, so it yields to the
+    // browser between chunks instead of running as one long task.
+    initialApplyDone = []
+    applyInitial(DOCUMENT.documentElement, () => {
+      queuedAttributeNames.clear()
+      const done = initialApplyDone!
+      initialApplyDone = undefined
+      for (const fn of done) fn()
+    })
+    return
+  }
+  for (const root of observedRoots) {
+    applyQueued(root, false)
+  }
+  queuedAttributeNames.clear()
 }
 
 export const action = <T>(plugin: ActionPlugin<T>): void => {
@@ -257,6 +276,85 @@ const applyQueued = (
     observedRoots.add(root)
     dispatchDatastarReady()
   }
+}
+
+// How long one chunk of the first apply may run before it yields.
+const APPLY_CHUNK_MS = 30
+
+// The first apply over the document, in document order like applyQueued,
+// but in chunks of APPLY_CHUNK_MS with a task boundary between them, so the
+// browser can paint and handle input while a large page is being applied.
+// What other tasks change between chunks is replayed the way the document
+// observer would have handled it after a one-task apply: removed elements
+// are applied if not reached yet, then cleaned up; added and changed
+// elements are applied, except those not reached yet, which are applied in
+// their turn with the attributes they have then.
+const applyInitial = (root: HTMLOrSVG, done: () => void): void => {
+  const pending = [root, ...root.querySelectorAll<HTMLOrSVG>('*')]
+  const waiting = new Set(pending)
+  let next = 0
+
+  const replayGap = (mutations: MutationRecord[]) => {
+    for (const mutation of mutations) {
+      if (mutation.type === 'childList') {
+        for (const node of mutation.removedNodes) {
+          if (isHTMLOrSVG(node)) {
+            const els = [node, ...node.querySelectorAll<HTMLOrSVG>('*')]
+            // A one-task apply would have applied these before they were
+            // removed, so apply the ones not reached yet, then clean up.
+            const unreached = els.filter((el) => waiting.delete(el))
+            if (unreached.length) applyEls(unreached, true)
+            cleanupEls(els)
+          }
+        }
+        for (const node of mutation.addedNodes) {
+          if (isHTMLOrSVG(node)) {
+            const els = [node, ...node.querySelectorAll<HTMLOrSVG>('*')]
+            applyEls(els.filter((el) => !waiting.has(el)))
+          }
+        }
+      } else if (
+        isHTMLOrSVG(mutation.target) &&
+        !waiting.has(mutation.target)
+      ) {
+        observe([mutation])
+      }
+    }
+  }
+
+  // Watches the document only between chunks, so the changes it sees are
+  // other tasks', not the apply's own.
+  const gapObserver = new MutationObserverClass(replayGap)
+
+  const chunk = () => {
+    const gap = gapObserver.takeRecords()
+    gapObserver.disconnect()
+    replayGap(gap)
+    const start = performance.now()
+    while (next < pending.length) {
+      const el = pending[next++]
+      // Elements another task removed between chunks were handled then.
+      if (waiting.delete(el)) applyEls([el], true)
+      if (performance.now() - start > APPLY_CHUNK_MS && next < pending.length) {
+        gapObserver.observe(root, {
+          subtree: true,
+          childList: true,
+          attributes: true,
+        })
+        setTimeout(chunk)
+        return
+      }
+    }
+    mutationObserver.observe(root, {
+      subtree: true,
+      childList: true,
+      attributes: true,
+    })
+    observedRoots.add(root)
+    dispatchDatastarReady()
+    done()
+  }
+  chunk()
 }
 
 export const apply = (
