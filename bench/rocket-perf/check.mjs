@@ -40,7 +40,7 @@ try {
   const base = {};
   for (const s of scenarios) base[s] = await load(`/pages/bench.html?bundle=baseline&${s}`);
   const { html: ha, ...ra } = await load("/pages/check.html?bundle=baseline");
-  for (const v of ["template-only", "observer-only", "patched"]) {
+  for (const v of ["template-only", "observer-only", "patched", "issue-1227"]) {
     for (const s of scenarios) {
       const b = await load(`/pages/bench.html?bundle=${v}&${s}`);
       ok(`${v}: same DOM as baseline, ${s} (${b.elements} elements)`, () => assert.equal(b.dom, base[s].dom));

@@ -1,0 +1,40 @@
+<!doctype html>
+<!-- Minimal reproduction for the nested-template issue, ready for CodePen:
+     1,400 items rendered with one html`` call each, as chains 1 or 28
+     templates deep. Same items and text; the deep chains also get a <ul> per item with children.
+     Open the browser devtools console. Locally, ?src=/dist/baseline.js
+     swaps the CDN bundle for a local build. -->
+<script type="module">
+  const src = new URLSearchParams(location.search).get('src') ??
+    'https://cdn.jsdelivr.net/gh/starfederation/datastar@v1.0.4/bundles/datastar-rocket.js'
+  const { rocket } = await import(src)
+  const chains = (n, depth) => {
+    const roots = []
+    for (let id = 0; id < n; ) {
+      let parent = null
+      for (let d = 0; d < depth && id < n; d++) {
+        const item = { id: id++, children: [] }
+        parent ? parent.children.push(item) : roots.push(item)
+        parent = item
+      }
+    }
+    return roots
+  }
+  const item = (html, c) =>
+    html`<li><span>item ${c.id}</span>${c.children.length ? html`<ul>${c.children.map((k) => item(html, k))}</ul>` : null}</li>`
+  const results = {}
+  for (const depth of [1, 28, 1, 28, 1, 28]) {
+    const tag = `tree-${depth}-${Math.random().toString(36).slice(2, 8)}`
+    const roots = chains(1400, depth)
+    rocket(tag, { mode: 'light', render: ({ html }) => html`<ul>${roots.map((c) => item(html, c))}</ul>` })
+    const t0 = performance.now()
+    const el = document.body.appendChild(document.createElement(tag))
+    await new Promise((r) => requestAnimationFrame(() => setTimeout(r)))
+    const ms = performance.now() - t0
+    if (el.querySelectorAll('li').length !== 1400) throw new Error('not rendered')
+    el.remove()
+    ;(results[depth] ??= []).push(Math.round(ms))
+  }
+  console.log('depth 1:', results[1], 'ms; depth 28:', results[28], 'ms')
+  window.__result = results
+</script>

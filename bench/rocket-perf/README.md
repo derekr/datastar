@@ -127,7 +127,7 @@ Top self time (ms), baseline:
 
 ## Correctness
 
-`check.mjs` (output in `results/check.txt`: 34 passed) runs every build against the baseline:
+`check.mjs` (output in `results/check.txt`: 45 passed) runs every build against the baseline:
 
 - **Same DOM:** every benchmark scenario (tree at depth 1 and 14, with and without signals, and `data-for` rows) gives a byte-identical `innerHTML`.
 - **Composition cases** (`pages/check.js`), each giving the same results and DOM as the baseline:
@@ -140,17 +140,37 @@ Top self time (ms), baseline:
 
 An earlier, simpler version of fix 1 deferred *every* composed node. That stopped scoping nodes made outside the template, and the foreign-node case caught it. That is why fix 1 tracks the nodes its own literal produced. The repo has no test suite to run beyond this.
 
+## Compared with the fix proposed in #1227
+
+[starfederation/datastar#1227](https://github.com/starfederation/datastar/issues/1227) reports the same observer function from another angle: reordering rows with `replaceChildren`. It proposes a different fix: skip removal-only records, and walk each parent once per batch. `patches/issue-1227.patch` is that diff. `build.mjs` builds it as `issue-1227`, and `check.mjs` checks it like the others (it passes). `compare-1227.mjs` times it against fix 2 on this benchmark's `data-for` rows and on the issue's own reproduction (`pages/reorder.html`):
+
+Time in ms, median (min–max) of 7 runs. data-for: render, as in summary.md. Reorder: one replaceChildren of the same rows, reversed, until the observers have run (the issue's own reproduction).
+
+| Scenario | Baseline | #1227's change | This branch's change |
+| --- | ---: | ---: | ---: |
+| data-for, 100 rows x 7 cells | 281 (223–335) | 136 (110–184) | 152 (117–194) |
+| data-for, 400 rows x 7 cells | 2,316 (2,106–2,643) | 446 (386–464) | 419 (395–625) |
+| data-for, 800 rows x 7 cells | 9,693 (9,458–10,526) | 948 (811–1,016) | 918 (793–1,150) |
+| #1227 reorder, 250 rows x 8 cells | 269 (237–450) | 31 (15–34) | 34 (30–51) |
+| #1227 reorder, 500 rows x 8 cells | 1,018 (860–1,129) | 70 (55–95) | 81 (55–90) |
+| #1227 reorder, 1000 rows x 8 cells | 3,940 (3,467–4,178) | 117 (105–160) | 125 (106–178) |
+
+The two changes perform the same within noise on both workloads. Either one fixes both cases.
+
 ## Rerun
 
 ```sh
 cd bench/rocket-perf
 npm install            # esbuild, playwright (then: npx playwright install chromium)
-node build.mjs         # dist/: baseline, template-only, observer-only, patched
+node build.mjs         # dist/: baseline, template-only, observer-only, patched, issue-1227
 node check.mjs         # correctness
 node run.mjs 7         # results/summary.md, runs.jsonl, env.json
 node profile.mjs       # results/profile.md, profiles/*.trace.json
 node screenshots.mjs   # results/flame-*.png, bottom-up-*.png
+node compare-1227.mjs  # results/compare-1227.md
 ```
+
+`pages/repro-nested.html` is a standalone page for fix 1 that loads the v1.0.4 bundle from jsDelivr and can be pasted into CodePen. It renders the same 1,400 items 1 and 28 templates deep and logs both times.
 
 ## Attribution
 

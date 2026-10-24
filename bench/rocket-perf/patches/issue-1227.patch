@@ -1,0 +1,28 @@
+diff --git a/library/src/rocket/runtime.ts b/library/src/rocket/runtime.ts
+index f432cd2..5444a08 100644
+--- a/library/src/rocket/runtime.ts
++++ b/library/src/rocket/runtime.ts
+@@ -402,6 +402,9 @@ const markPendingRocketHosts = (root: ParentNode) => {
+ const observePendingRocketHosts = () => {
+   markPendingRocketHosts(document)
+   new MutationObserver((records) => {
++    // replaceChildren() over nodes already in the parent queues a record per node: scan each
++    // parent once per batch, and not for a removal, which cannot bring a pending host.
++    const parents = new Set<Element>()
+     for (const record of records) {
+       if (record.type === 'attributes' && record.target instanceof Element) {
+         const name = record.attributeName
+@@ -416,10 +419,11 @@ const observePendingRocketHosts = () => {
+       for (const node of record.addedNodes) {
+         if (node instanceof Element) markPendingRocketHosts(node)
+       }
+-      if (record.target instanceof Element) {
+-        markPendingRocketHosts(record.target)
++      if (record.addedNodes.length && record.target instanceof Element) {
++        parents.add(record.target)
+       }
+     }
++    for (const parent of parents) markPendingRocketHosts(parent)
+   }).observe(document.documentElement, {
+     subtree: true,
+     childList: true,

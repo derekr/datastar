@@ -31,4 +31,15 @@ ok   patched: mixed iterable, both items reactive
 ok   patched: svg in html bound
 ok   patched: hosts in the page before define: upgrade, bind, project children
 ok   patched: re-render morphs and stays bound
+ok   issue-1227: same DOM as baseline, scenario=tree&nodes=300&depth=1 (1208 elements)
+ok   issue-1227: same DOM as baseline, scenario=tree&nodes=300&depth=14 (1486 elements)
+ok   issue-1227: same DOM as baseline, scenario=tree&nodes=300&depth=14&signals=1 (2042 elements)
+ok   issue-1227: same DOM as baseline, scenario=rows&rows=100&cells=5 (910 elements)
+ok   issue-1227: composition cases give the same results and DOM as baseline
+ok   issue-1227: nested templates: local signals bound and reactive
+ok   issue-1227: foreign node still scoped and reactive
+ok   issue-1227: mixed iterable, both items reactive
+ok   issue-1227: svg in html bound
+ok   issue-1227: hosts in the page before define: upgrade, bind, project children
+ok   issue-1227: re-render morphs and stays bound
 ok   no page errors
