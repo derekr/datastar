@@ -58,6 +58,7 @@ export const attribute = <R extends Requirement, B extends boolean>(
         queuedAttributeNames.add(attribute.name)
         attributePlugins.set(attribute.name, attribute)
       }
+      pluginNames = undefined
       queuedAttributes.length = 0
       const roots = observedRoots.size
         ? [...observedRoots]
@@ -72,7 +73,17 @@ export const attribute = <R extends Requirement, B extends boolean>(
 
 export const action = <T>(plugin: ActionPlugin<T>): void => {
   actionPlugins.set(plugin.name, plugin)
+  pluginNames = undefined
 }
+
+// The names behind each context's `loadedPluginNames`, listed again only
+// after a plugin is registered rather than for every attribute applied.
+let pluginNames: { actions: string[]; attributes: string[] } | undefined
+const currentPluginNames = () =>
+  (pluginNames ??= {
+    actions: [...actionPlugins.keys()],
+    attributes: [...attributePlugins.keys()],
+  })
 
 DOCUMENT.addEventListener(DATASTAR_FETCH_EVENT, ((
   evt: CustomEvent<DatastarFetchEvent>,
@@ -285,6 +296,12 @@ const applyAttributePlugin = (
   const shouldApply =
     (!onlyNew || queuedAttributeNames.has(pluginName)) && !!plugin
   if (shouldApply) {
+    // `loadedPluginNames` is built on first read: each context still gets
+    // its own Sets of the plugins loaded when it was applied, but contexts
+    // whose plugin never reads them (all of the built-in ones) skip
+    // building them.
+    const names = currentPluginNames()
+    let loadedPluginNames: AttributeContext['loadedPluginNames'] | undefined
     const ctx = {
       el,
       rawKey,
@@ -296,9 +313,14 @@ const applyAttributePlugin = (
       }),
       key,
       value,
-      loadedPluginNames: {
-        actions: new Set(actionPlugins.keys()),
-        attributes: new Set(attributePlugins.keys()),
+      get loadedPluginNames() {
+        return (loadedPluginNames ??= {
+          actions: new Set(names.actions),
+          attributes: new Set(names.attributes),
+        })
+      },
+      set loadedPluginNames(value) {
+        loadedPluginNames = value
       },
       rx: undefined,
     } as AttributeContext
