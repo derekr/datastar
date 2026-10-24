@@ -87,6 +87,17 @@ export function hypertext(
   render: (string: string) => ParentNode,
   postprocess: (root: ParentNode) => DocumentFragment,
 ) {
+  // Top-level nodes this tagged literal has already returned, so already postprocessed. Composing them into a parent template must not postprocess them again: with nested templates (a recursive tree, a list of rows each built by its own `html` call) every level would otherwise re-walk and re-scope every node below it.
+  const produced = new WeakSet<Node>()
+  const isProduced = (value: unknown): boolean => {
+    if (value == null || typeof value !== 'object') return true
+    if (value instanceof DocumentFragment)
+      return [...value.childNodes].every((node) => produced.has(node))
+    if (value instanceof Node) return produced.has(value)
+    if (Symbol.iterator in value)
+      return [...(value as Iterable<unknown>)].every(isProduced)
+    return true
+  }
   return ({ raw: strings }: TemplateStringsArray, ...values: unknown[]) => {
     const state: TemplateScanState = {
       context: 'data',
@@ -329,6 +340,11 @@ export function hypertext(
         if (!match) continue
         const index = +match[1]
         resolved[index] = true
+        // Values built by this same tagged literal go in after `postprocess(...)`, which then walks only this template's own nodes; anything else (a Node made elsewhere) goes in now and is postprocessed as before.
+        if (isProduced(values[index])) {
+          deferred.push([node, values[index]])
+          continue
+        }
         const fragment = document.createDocumentFragment()
         appendComposedTemplateValue(fragment, values[index])
         node.replaceWith(fragment)
@@ -353,6 +369,7 @@ export function hypertext(
         }
       }
     }
+    const deferred: Array<[Comment, unknown]> = []
     resolveMarkers(root)
 
     const unresolved = resolved.findIndex((value) => !value)
@@ -365,7 +382,14 @@ export function hypertext(
         'RocketTemplateInvalidComposition',
       )
     }
-    return postprocess(root as DocumentFragment)
+    const fragment = postprocess(root as DocumentFragment)
+    for (const [marker, value] of deferred) {
+      const composed = document.createDocumentFragment()
+      appendComposedTemplateValue(composed, value)
+      marker.replaceWith(composed)
+    }
+    for (const node of fragment.childNodes) produced.add(node)
+    return fragment
   }
 }
 
