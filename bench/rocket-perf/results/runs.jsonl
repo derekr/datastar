@@ -1,0 +1,392 @@
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":1,"bundle":"baseline","scenario":"tree","ms":197.5,"syncMs":130.2,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":1,"bundle":"template-only","scenario":"tree","ms":155.6,"syncMs":118.8,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":1,"bundle":"observer-only","scenario":"tree","ms":162.6,"syncMs":130.3,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":1,"bundle":"patched","scenario":"tree","ms":185.2,"syncMs":143.2,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":2,"bundle":"patched","scenario":"tree","ms":145.5,"syncMs":116.1,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":2,"bundle":"observer-only","scenario":"tree","ms":164.9,"syncMs":136.4,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":2,"bundle":"template-only","scenario":"tree","ms":159.2,"syncMs":115.8,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":2,"bundle":"baseline","scenario":"tree","ms":218.2,"syncMs":157.6,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":3,"bundle":"baseline","scenario":"tree","ms":184.9,"syncMs":146.9,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":3,"bundle":"template-only","scenario":"tree","ms":164.8,"syncMs":127.6,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":3,"bundle":"observer-only","scenario":"tree","ms":141.7,"syncMs":117.1,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":3,"bundle":"patched","scenario":"tree","ms":148.7,"syncMs":122,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":4,"bundle":"patched","scenario":"tree","ms":137.9,"syncMs":109.2,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":4,"bundle":"observer-only","scenario":"tree","ms":189.3,"syncMs":154.7,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":4,"bundle":"template-only","scenario":"tree","ms":178.4,"syncMs":127.1,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":4,"bundle":"baseline","scenario":"tree","ms":192,"syncMs":138.4,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":5,"bundle":"baseline","scenario":"tree","ms":152.5,"syncMs":118.1,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":5,"bundle":"template-only","scenario":"tree","ms":151,"syncMs":107.9,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":5,"bundle":"observer-only","scenario":"tree","ms":189,"syncMs":149.1,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":5,"bundle":"patched","scenario":"tree","ms":204.1,"syncMs":152.3,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":6,"bundle":"patched","scenario":"tree","ms":160,"syncMs":125.7,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":6,"bundle":"observer-only","scenario":"tree","ms":189.6,"syncMs":147.4,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":6,"bundle":"template-only","scenario":"tree","ms":174.6,"syncMs":126,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":6,"bundle":"baseline","scenario":"tree","ms":231.4,"syncMs":172.9,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":7,"bundle":"baseline","scenario":"tree","ms":230.7,"syncMs":170.2,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":7,"bundle":"template-only","scenario":"tree","ms":240,"syncMs":168.9,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":7,"bundle":"observer-only","scenario":"tree","ms":150.4,"syncMs":125.3,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 1","query":"scenario=tree&nodes=1400&depth=1","cpu":1,"round":7,"bundle":"patched","scenario":"tree","ms":138.1,"syncMs":112.4,"items":1400,"elements":5608}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":1,"bundle":"baseline","scenario":"tree","ms":230.8,"syncMs":188.2,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":1,"bundle":"template-only","scenario":"tree","ms":231.7,"syncMs":186,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":1,"bundle":"observer-only","scenario":"tree","ms":198.9,"syncMs":153.9,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":1,"bundle":"patched","scenario":"tree","ms":258.6,"syncMs":205.3,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":2,"bundle":"patched","scenario":"tree","ms":202.9,"syncMs":148.5,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":2,"bundle":"observer-only","scenario":"tree","ms":221.9,"syncMs":185.9,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":2,"bundle":"template-only","scenario":"tree","ms":207.1,"syncMs":161.9,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":2,"bundle":"baseline","scenario":"tree","ms":200.8,"syncMs":164.6,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":3,"bundle":"baseline","scenario":"tree","ms":226.3,"syncMs":161.3,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":3,"bundle":"template-only","scenario":"tree","ms":242.1,"syncMs":174.7,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":3,"bundle":"observer-only","scenario":"tree","ms":258,"syncMs":204.2,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":3,"bundle":"patched","scenario":"tree","ms":254.2,"syncMs":202.2,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":4,"bundle":"patched","scenario":"tree","ms":201.8,"syncMs":158.2,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":4,"bundle":"observer-only","scenario":"tree","ms":196.8,"syncMs":168.6,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":4,"bundle":"template-only","scenario":"tree","ms":182.1,"syncMs":137.9,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":4,"bundle":"baseline","scenario":"tree","ms":302.4,"syncMs":230,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":5,"bundle":"baseline","scenario":"tree","ms":206,"syncMs":157.4,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":5,"bundle":"template-only","scenario":"tree","ms":190.5,"syncMs":138.1,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":5,"bundle":"observer-only","scenario":"tree","ms":191.8,"syncMs":162.8,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":5,"bundle":"patched","scenario":"tree","ms":211.2,"syncMs":178.2,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":6,"bundle":"patched","scenario":"tree","ms":250.8,"syncMs":196.9,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":6,"bundle":"observer-only","scenario":"tree","ms":172.2,"syncMs":142.8,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":6,"bundle":"template-only","scenario":"tree","ms":171,"syncMs":132.5,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":6,"bundle":"baseline","scenario":"tree","ms":189.7,"syncMs":149.1,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":7,"bundle":"baseline","scenario":"tree","ms":214.3,"syncMs":167.9,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":7,"bundle":"template-only","scenario":"tree","ms":269.1,"syncMs":199.5,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":7,"bundle":"observer-only","scenario":"tree","ms":241.3,"syncMs":208.8,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 2","query":"scenario=tree&nodes=1400&depth=2","cpu":1,"round":7,"bundle":"patched","scenario":"tree","ms":214.7,"syncMs":168.8,"items":1400,"elements":6308}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":1,"bundle":"baseline","scenario":"tree","ms":348.4,"syncMs":272.3,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":1,"bundle":"template-only","scenario":"tree","ms":198.8,"syncMs":154,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":1,"bundle":"observer-only","scenario":"tree","ms":316,"syncMs":265.4,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":1,"bundle":"patched","scenario":"tree","ms":225.8,"syncMs":196.6,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":2,"bundle":"patched","scenario":"tree","ms":232,"syncMs":181,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":2,"bundle":"observer-only","scenario":"tree","ms":255.1,"syncMs":224.7,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":2,"bundle":"template-only","scenario":"tree","ms":264,"syncMs":186.3,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":2,"bundle":"baseline","scenario":"tree","ms":260.9,"syncMs":215.3,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":3,"bundle":"baseline","scenario":"tree","ms":340.2,"syncMs":275.4,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":3,"bundle":"template-only","scenario":"tree","ms":269.2,"syncMs":210.3,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":3,"bundle":"observer-only","scenario":"tree","ms":324.5,"syncMs":268.6,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":3,"bundle":"patched","scenario":"tree","ms":243.7,"syncMs":213.6,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":4,"bundle":"patched","scenario":"tree","ms":174.3,"syncMs":142.1,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":4,"bundle":"observer-only","scenario":"tree","ms":237.6,"syncMs":179.8,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":4,"bundle":"template-only","scenario":"tree","ms":264.1,"syncMs":206.3,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":4,"bundle":"baseline","scenario":"tree","ms":236.7,"syncMs":194.1,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":5,"bundle":"baseline","scenario":"tree","ms":261,"syncMs":220.6,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":5,"bundle":"template-only","scenario":"tree","ms":184.8,"syncMs":142.9,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":5,"bundle":"observer-only","scenario":"tree","ms":253.3,"syncMs":222.4,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":5,"bundle":"patched","scenario":"tree","ms":214.8,"syncMs":183,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":6,"bundle":"patched","scenario":"tree","ms":245,"syncMs":189.7,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":6,"bundle":"observer-only","scenario":"tree","ms":203.7,"syncMs":174.4,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":6,"bundle":"template-only","scenario":"tree","ms":199.1,"syncMs":156.5,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":6,"bundle":"baseline","scenario":"tree","ms":229.8,"syncMs":187.1,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":7,"bundle":"baseline","scenario":"tree","ms":230.8,"syncMs":188.4,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":7,"bundle":"template-only","scenario":"tree","ms":259.8,"syncMs":185.9,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":7,"bundle":"observer-only","scenario":"tree","ms":240.6,"syncMs":204.1,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 4","query":"scenario=tree&nodes=1400&depth=4","cpu":1,"round":7,"bundle":"patched","scenario":"tree","ms":242.4,"syncMs":203,"items":1400,"elements":6658}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":1,"bundle":"baseline","scenario":"tree","ms":411.6,"syncMs":328.7,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":1,"bundle":"template-only","scenario":"tree","ms":289.7,"syncMs":244.4,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":1,"bundle":"observer-only","scenario":"tree","ms":319.8,"syncMs":268.7,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":1,"bundle":"patched","scenario":"tree","ms":186.7,"syncMs":151.4,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":2,"bundle":"patched","scenario":"tree","ms":230.7,"syncMs":194.5,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":2,"bundle":"observer-only","scenario":"tree","ms":253.7,"syncMs":217.8,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":2,"bundle":"template-only","scenario":"tree","ms":247.7,"syncMs":173.9,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":2,"bundle":"baseline","scenario":"tree","ms":260.3,"syncMs":213.4,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":3,"bundle":"baseline","scenario":"tree","ms":434.5,"syncMs":351.2,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":3,"bundle":"template-only","scenario":"tree","ms":256.5,"syncMs":208.3,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":3,"bundle":"observer-only","scenario":"tree","ms":341.3,"syncMs":285.3,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":3,"bundle":"patched","scenario":"tree","ms":212.3,"syncMs":173.5,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":4,"bundle":"patched","scenario":"tree","ms":233.8,"syncMs":197,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":4,"bundle":"observer-only","scenario":"tree","ms":263.1,"syncMs":226.9,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":4,"bundle":"template-only","scenario":"tree","ms":280.1,"syncMs":220,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":4,"bundle":"baseline","scenario":"tree","ms":436.2,"syncMs":355.7,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":5,"bundle":"baseline","scenario":"tree","ms":319.1,"syncMs":258.2,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":5,"bundle":"template-only","scenario":"tree","ms":197,"syncMs":145.8,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":5,"bundle":"observer-only","scenario":"tree","ms":397.7,"syncMs":343,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":5,"bundle":"patched","scenario":"tree","ms":232,"syncMs":186.6,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":6,"bundle":"patched","scenario":"tree","ms":295.2,"syncMs":244.4,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":6,"bundle":"observer-only","scenario":"tree","ms":352.5,"syncMs":321.7,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":6,"bundle":"template-only","scenario":"tree","ms":193.2,"syncMs":148.8,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":6,"bundle":"baseline","scenario":"tree","ms":318.5,"syncMs":252.5,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":7,"bundle":"baseline","scenario":"tree","ms":387.4,"syncMs":317.3,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":7,"bundle":"template-only","scenario":"tree","ms":261.8,"syncMs":208.5,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":7,"bundle":"observer-only","scenario":"tree","ms":278.8,"syncMs":247.7,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 8","query":"scenario=tree&nodes=1400&depth=8","cpu":1,"round":7,"bundle":"patched","scenario":"tree","ms":189.2,"syncMs":153.4,"items":1400,"elements":6833}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":1,"bundle":"baseline","scenario":"tree","ms":365.3,"syncMs":310.9,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":1,"bundle":"template-only","scenario":"tree","ms":308.5,"syncMs":225.9,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":1,"bundle":"observer-only","scenario":"tree","ms":274.7,"syncMs":242,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":1,"bundle":"patched","scenario":"tree","ms":234.3,"syncMs":199,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":2,"bundle":"patched","scenario":"tree","ms":260.3,"syncMs":227.2,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":2,"bundle":"observer-only","scenario":"tree","ms":281.3,"syncMs":249.1,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":2,"bundle":"template-only","scenario":"tree","ms":212.6,"syncMs":161.5,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":2,"bundle":"baseline","scenario":"tree","ms":432.9,"syncMs":379.4,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":3,"bundle":"baseline","scenario":"tree","ms":531.5,"syncMs":444.3,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":3,"bundle":"template-only","scenario":"tree","ms":285.1,"syncMs":207.1,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":3,"bundle":"observer-only","scenario":"tree","ms":385.1,"syncMs":352.8,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":3,"bundle":"patched","scenario":"tree","ms":286.3,"syncMs":225.6,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":4,"bundle":"patched","scenario":"tree","ms":294.8,"syncMs":235.5,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":4,"bundle":"observer-only","scenario":"tree","ms":381,"syncMs":334.9,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":4,"bundle":"template-only","scenario":"tree","ms":248.9,"syncMs":169,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":4,"bundle":"baseline","scenario":"tree","ms":338.7,"syncMs":286.9,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":5,"bundle":"baseline","scenario":"tree","ms":444.8,"syncMs":353.4,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":5,"bundle":"template-only","scenario":"tree","ms":292,"syncMs":229.3,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":5,"bundle":"observer-only","scenario":"tree","ms":317.7,"syncMs":281.5,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":5,"bundle":"patched","scenario":"tree","ms":209.3,"syncMs":170.7,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":6,"bundle":"patched","scenario":"tree","ms":213.3,"syncMs":172.7,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":6,"bundle":"observer-only","scenario":"tree","ms":447.6,"syncMs":383.2,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":6,"bundle":"template-only","scenario":"tree","ms":246.3,"syncMs":188.8,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":6,"bundle":"baseline","scenario":"tree","ms":398.6,"syncMs":323.8,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":7,"bundle":"baseline","scenario":"tree","ms":356.6,"syncMs":283,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":7,"bundle":"template-only","scenario":"tree","ms":219.2,"syncMs":176.3,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":7,"bundle":"observer-only","scenario":"tree","ms":284.9,"syncMs":250.8,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":1,"round":7,"bundle":"patched","scenario":"tree","ms":269,"syncMs":232,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":1,"bundle":"baseline","scenario":"tree","ms":432.5,"syncMs":383.1,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":1,"bundle":"template-only","scenario":"tree","ms":235.6,"syncMs":183.3,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":1,"bundle":"observer-only","scenario":"tree","ms":413.7,"syncMs":375.2,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":1,"bundle":"patched","scenario":"tree","ms":253.5,"syncMs":209.8,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":2,"bundle":"patched","scenario":"tree","ms":249.3,"syncMs":187.7,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":2,"bundle":"observer-only","scenario":"tree","ms":584.2,"syncMs":546.2,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":2,"bundle":"template-only","scenario":"tree","ms":363.1,"syncMs":273.6,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":2,"bundle":"baseline","scenario":"tree","ms":420.8,"syncMs":375,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":3,"bundle":"baseline","scenario":"tree","ms":423,"syncMs":373.5,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":3,"bundle":"template-only","scenario":"tree","ms":245.8,"syncMs":198.1,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":3,"bundle":"observer-only","scenario":"tree","ms":408.4,"syncMs":362.9,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":3,"bundle":"patched","scenario":"tree","ms":215.7,"syncMs":180.3,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":4,"bundle":"patched","scenario":"tree","ms":347.3,"syncMs":278.2,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":4,"bundle":"observer-only","scenario":"tree","ms":422.5,"syncMs":385.9,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":4,"bundle":"template-only","scenario":"tree","ms":285.5,"syncMs":226.5,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":4,"bundle":"baseline","scenario":"tree","ms":467,"syncMs":414.4,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":5,"bundle":"baseline","scenario":"tree","ms":486.4,"syncMs":424.1,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":5,"bundle":"template-only","scenario":"tree","ms":249.3,"syncMs":185.1,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":5,"bundle":"observer-only","scenario":"tree","ms":434.4,"syncMs":394.3,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":5,"bundle":"patched","scenario":"tree","ms":249,"syncMs":213.3,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":6,"bundle":"patched","scenario":"tree","ms":250,"syncMs":206.8,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":6,"bundle":"observer-only","scenario":"tree","ms":716.7,"syncMs":650.1,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":6,"bundle":"template-only","scenario":"tree","ms":224.7,"syncMs":174.4,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":6,"bundle":"baseline","scenario":"tree","ms":520.8,"syncMs":473.9,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":7,"bundle":"baseline","scenario":"tree","ms":550.1,"syncMs":456.9,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":7,"bundle":"template-only","scenario":"tree","ms":252.9,"syncMs":189.2,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":7,"bundle":"observer-only","scenario":"tree","ms":459.2,"syncMs":417.5,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 28","query":"scenario=tree&nodes=1400&depth=28","cpu":1,"round":7,"bundle":"patched","scenario":"tree","ms":292.3,"syncMs":234.1,"items":1400,"elements":6958}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":1,"bundle":"baseline","scenario":"tree","ms":911.4,"syncMs":579.7,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":1,"bundle":"template-only","scenario":"tree","ms":655.8,"syncMs":385.7,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":1,"bundle":"observer-only","scenario":"tree","ms":846.1,"syncMs":619.2,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":1,"bundle":"patched","scenario":"tree","ms":692.2,"syncMs":443,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":2,"bundle":"patched","scenario":"tree","ms":597.2,"syncMs":343,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":2,"bundle":"observer-only","scenario":"tree","ms":908.8,"syncMs":574.8,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":2,"bundle":"template-only","scenario":"tree","ms":716.1,"syncMs":376.5,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":2,"bundle":"baseline","scenario":"tree","ms":900.4,"syncMs":585.3,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":3,"bundle":"baseline","scenario":"tree","ms":901.6,"syncMs":615.4,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":3,"bundle":"template-only","scenario":"tree","ms":751,"syncMs":393.7,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":3,"bundle":"observer-only","scenario":"tree","ms":861.1,"syncMs":582.3,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":3,"bundle":"patched","scenario":"tree","ms":635.7,"syncMs":369.8,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":4,"bundle":"patched","scenario":"tree","ms":591.6,"syncMs":357.6,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":4,"bundle":"observer-only","scenario":"tree","ms":1079.5,"syncMs":775.7,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":4,"bundle":"template-only","scenario":"tree","ms":625.5,"syncMs":378.8,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":4,"bundle":"baseline","scenario":"tree","ms":1081,"syncMs":788.2,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":5,"bundle":"baseline","scenario":"tree","ms":817.6,"syncMs":544.5,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":5,"bundle":"template-only","scenario":"tree","ms":712.8,"syncMs":344,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":5,"bundle":"observer-only","scenario":"tree","ms":775.5,"syncMs":543.9,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":5,"bundle":"patched","scenario":"tree","ms":695.8,"syncMs":452,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":6,"bundle":"patched","scenario":"tree","ms":555.4,"syncMs":323.6,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":6,"bundle":"observer-only","scenario":"tree","ms":960.4,"syncMs":699.5,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":6,"bundle":"template-only","scenario":"tree","ms":862.7,"syncMs":503.5,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":6,"bundle":"baseline","scenario":"tree","ms":837.8,"syncMs":576.5,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":7,"bundle":"baseline","scenario":"tree","ms":737.7,"syncMs":504.6,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":7,"bundle":"template-only","scenario":"tree","ms":593.7,"syncMs":339.2,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":7,"bundle":"observer-only","scenario":"tree","ms":824.6,"syncMs":596.4,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":1,"round":7,"bundle":"patched","scenario":"tree","ms":622.5,"syncMs":340.9,"items":1400,"elements":9508}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":1,"bundle":"baseline","scenario":"rows","ms":262.1,"syncMs":48.3,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":1,"bundle":"template-only","scenario":"rows","ms":258.6,"syncMs":51,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":1,"bundle":"observer-only","scenario":"rows","ms":144.3,"syncMs":58.3,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":1,"bundle":"patched","scenario":"rows","ms":177.2,"syncMs":69.9,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":2,"bundle":"patched","scenario":"rows","ms":163.1,"syncMs":60.4,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":2,"bundle":"observer-only","scenario":"rows","ms":166.6,"syncMs":62.9,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":2,"bundle":"template-only","scenario":"rows","ms":359.6,"syncMs":57.7,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":2,"bundle":"baseline","scenario":"rows","ms":384.1,"syncMs":53.4,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":3,"bundle":"baseline","scenario":"rows","ms":250.4,"syncMs":44.2,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":3,"bundle":"template-only","scenario":"rows","ms":242.9,"syncMs":46,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":3,"bundle":"observer-only","scenario":"rows","ms":119.4,"syncMs":46.4,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":3,"bundle":"patched","scenario":"rows","ms":119.8,"syncMs":48.6,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":4,"bundle":"patched","scenario":"rows","ms":145.6,"syncMs":48.4,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":4,"bundle":"observer-only","scenario":"rows","ms":137.7,"syncMs":53.3,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":4,"bundle":"template-only","scenario":"rows","ms":347.1,"syncMs":69.6,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":4,"bundle":"baseline","scenario":"rows","ms":268.3,"syncMs":72.4,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":5,"bundle":"baseline","scenario":"rows","ms":292,"syncMs":54.1,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":5,"bundle":"template-only","scenario":"rows","ms":244.7,"syncMs":42.9,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":5,"bundle":"observer-only","scenario":"rows","ms":146.1,"syncMs":51.8,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":5,"bundle":"patched","scenario":"rows","ms":131.2,"syncMs":53.8,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":6,"bundle":"patched","scenario":"rows","ms":122.6,"syncMs":45.4,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":6,"bundle":"observer-only","scenario":"rows","ms":125.4,"syncMs":48.6,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":6,"bundle":"template-only","scenario":"rows","ms":263.3,"syncMs":62.8,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":6,"bundle":"baseline","scenario":"rows","ms":287.1,"syncMs":64.7,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":7,"bundle":"baseline","scenario":"rows","ms":280.6,"syncMs":45.5,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":7,"bundle":"template-only","scenario":"rows","ms":245.8,"syncMs":45.7,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":7,"bundle":"observer-only","scenario":"rows","ms":126.1,"syncMs":51,"items":700,"elements":910}
+{"label":"data-for, 100 rows x 7 cells","query":"scenario=rows&rows=100&cells=5","cpu":1,"round":7,"bundle":"patched","scenario":"rows","ms":129.4,"syncMs":49.1,"items":700,"elements":910}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":1,"bundle":"baseline","scenario":"rows","ms":701.9,"syncMs":75.4,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":1,"bundle":"template-only","scenario":"rows","ms":729.7,"syncMs":83.2,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":1,"bundle":"observer-only","scenario":"rows","ms":226.4,"syncMs":79.6,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":1,"bundle":"patched","scenario":"rows","ms":244.9,"syncMs":96.6,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":2,"bundle":"patched","scenario":"rows","ms":297.1,"syncMs":105,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":2,"bundle":"observer-only","scenario":"rows","ms":340.8,"syncMs":119.6,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":2,"bundle":"template-only","scenario":"rows","ms":735.1,"syncMs":98.3,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":2,"bundle":"baseline","scenario":"rows","ms":704.7,"syncMs":77.5,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":3,"bundle":"baseline","scenario":"rows","ms":672.4,"syncMs":84.1,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":3,"bundle":"template-only","scenario":"rows","ms":732.2,"syncMs":75.7,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":3,"bundle":"observer-only","scenario":"rows","ms":310.9,"syncMs":98,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":3,"bundle":"patched","scenario":"rows","ms":222.9,"syncMs":77.4,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":4,"bundle":"patched","scenario":"rows","ms":231.2,"syncMs":79.8,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":4,"bundle":"observer-only","scenario":"rows","ms":289.6,"syncMs":104.2,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":4,"bundle":"template-only","scenario":"rows","ms":865,"syncMs":70.8,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":4,"bundle":"baseline","scenario":"rows","ms":648.5,"syncMs":67.7,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":5,"bundle":"baseline","scenario":"rows","ms":684,"syncMs":69.9,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":5,"bundle":"template-only","scenario":"rows","ms":662.2,"syncMs":72.9,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":5,"bundle":"observer-only","scenario":"rows","ms":241.2,"syncMs":88,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":5,"bundle":"patched","scenario":"rows","ms":229.1,"syncMs":90.3,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":6,"bundle":"patched","scenario":"rows","ms":262.1,"syncMs":106.1,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":6,"bundle":"observer-only","scenario":"rows","ms":228.3,"syncMs":82,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":6,"bundle":"template-only","scenario":"rows","ms":646.7,"syncMs":70.9,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":6,"bundle":"baseline","scenario":"rows","ms":628.7,"syncMs":70,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":7,"bundle":"baseline","scenario":"rows","ms":952.2,"syncMs":125.4,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":7,"bundle":"template-only","scenario":"rows","ms":868.2,"syncMs":110.4,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":7,"bundle":"observer-only","scenario":"rows","ms":229.9,"syncMs":82,"items":1400,"elements":1810}
+{"label":"data-for, 200 rows x 7 cells","query":"scenario=rows&rows=200&cells=5","cpu":1,"round":7,"bundle":"patched","scenario":"rows","ms":243.5,"syncMs":73.3,"items":1400,"elements":1810}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":1,"bundle":"baseline","scenario":"rows","ms":2501.9,"syncMs":135.7,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":1,"bundle":"template-only","scenario":"rows","ms":2321.5,"syncMs":198.4,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":1,"bundle":"observer-only","scenario":"rows","ms":508.8,"syncMs":136.5,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":1,"bundle":"patched","scenario":"rows","ms":436.3,"syncMs":135.1,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":2,"bundle":"patched","scenario":"rows","ms":424.5,"syncMs":155.8,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":2,"bundle":"observer-only","scenario":"rows","ms":472.4,"syncMs":155.1,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":2,"bundle":"template-only","scenario":"rows","ms":2590.8,"syncMs":145.1,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":2,"bundle":"baseline","scenario":"rows","ms":2955.9,"syncMs":207.1,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":3,"bundle":"baseline","scenario":"rows","ms":3010.6,"syncMs":269.8,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":3,"bundle":"template-only","scenario":"rows","ms":2373.4,"syncMs":153.6,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":3,"bundle":"observer-only","scenario":"rows","ms":517.6,"syncMs":157.4,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":3,"bundle":"patched","scenario":"rows","ms":530,"syncMs":138,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":4,"bundle":"patched","scenario":"rows","ms":461.1,"syncMs":132.3,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":4,"bundle":"observer-only","scenario":"rows","ms":439.8,"syncMs":135.4,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":4,"bundle":"template-only","scenario":"rows","ms":2520.6,"syncMs":132.7,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":4,"bundle":"baseline","scenario":"rows","ms":2235.7,"syncMs":150.6,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":5,"bundle":"baseline","scenario":"rows","ms":2579.4,"syncMs":133.8,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":5,"bundle":"template-only","scenario":"rows","ms":2568,"syncMs":186,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":5,"bundle":"observer-only","scenario":"rows","ms":463.5,"syncMs":165.2,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":5,"bundle":"patched","scenario":"rows","ms":388.2,"syncMs":117.4,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":6,"bundle":"patched","scenario":"rows","ms":425.6,"syncMs":130.9,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":6,"bundle":"observer-only","scenario":"rows","ms":495.2,"syncMs":150.3,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":6,"bundle":"template-only","scenario":"rows","ms":2713.8,"syncMs":173.6,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":6,"bundle":"baseline","scenario":"rows","ms":2764.2,"syncMs":139.2,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":7,"bundle":"baseline","scenario":"rows","ms":2303.2,"syncMs":164.5,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":7,"bundle":"template-only","scenario":"rows","ms":2719.8,"syncMs":156.2,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":7,"bundle":"observer-only","scenario":"rows","ms":395.8,"syncMs":118.6,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":1,"round":7,"bundle":"patched","scenario":"rows","ms":492.7,"syncMs":141.5,"items":2800,"elements":3610}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":1,"bundle":"baseline","scenario":"rows","ms":9318.9,"syncMs":235.4,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":1,"bundle":"template-only","scenario":"rows","ms":8817.6,"syncMs":283.2,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":1,"bundle":"observer-only","scenario":"rows","ms":778.2,"syncMs":236.8,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":1,"bundle":"patched","scenario":"rows","ms":920.8,"syncMs":256.8,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":2,"bundle":"patched","scenario":"rows","ms":816.8,"syncMs":237.1,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":2,"bundle":"observer-only","scenario":"rows","ms":866.6,"syncMs":238.8,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":2,"bundle":"template-only","scenario":"rows","ms":8510.9,"syncMs":229.1,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":2,"bundle":"baseline","scenario":"rows","ms":8844.1,"syncMs":330.3,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":3,"bundle":"baseline","scenario":"rows","ms":8460.4,"syncMs":332.4,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":3,"bundle":"template-only","scenario":"rows","ms":9853.1,"syncMs":294.5,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":3,"bundle":"observer-only","scenario":"rows","ms":958.3,"syncMs":270.5,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":3,"bundle":"patched","scenario":"rows","ms":824.7,"syncMs":248,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":4,"bundle":"patched","scenario":"rows","ms":951.3,"syncMs":280.6,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":4,"bundle":"observer-only","scenario":"rows","ms":927.3,"syncMs":291,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":4,"bundle":"template-only","scenario":"rows","ms":9143.2,"syncMs":238.7,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":4,"bundle":"baseline","scenario":"rows","ms":9121,"syncMs":246.5,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":5,"bundle":"baseline","scenario":"rows","ms":9356,"syncMs":241.9,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":5,"bundle":"template-only","scenario":"rows","ms":9017.4,"syncMs":241.7,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":5,"bundle":"observer-only","scenario":"rows","ms":967.2,"syncMs":328,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":5,"bundle":"patched","scenario":"rows","ms":914.6,"syncMs":328,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":6,"bundle":"patched","scenario":"rows","ms":861.2,"syncMs":250.3,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":6,"bundle":"observer-only","scenario":"rows","ms":889.8,"syncMs":301.8,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":6,"bundle":"template-only","scenario":"rows","ms":9723.6,"syncMs":242.9,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":6,"bundle":"baseline","scenario":"rows","ms":9670,"syncMs":304.2,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":7,"bundle":"baseline","scenario":"rows","ms":9425.3,"syncMs":230.6,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":7,"bundle":"template-only","scenario":"rows","ms":8625,"syncMs":234.8,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":7,"bundle":"observer-only","scenario":"rows","ms":784.1,"syncMs":217.6,"items":5600,"elements":7210}
+{"label":"data-for, 800 rows x 7 cells","query":"scenario=rows&rows=800&cells=5","cpu":1,"round":7,"bundle":"patched","scenario":"rows","ms":736.9,"syncMs":212.1,"items":5600,"elements":7210}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":1,"bundle":"baseline","scenario":"tree","ms":1488.2,"syncMs":1275.7,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":1,"bundle":"template-only","scenario":"tree","ms":901.8,"syncMs":667.2,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":1,"bundle":"observer-only","scenario":"tree","ms":1438.7,"syncMs":1260.5,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":1,"bundle":"patched","scenario":"tree","ms":1029.7,"syncMs":869.3,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":2,"bundle":"patched","scenario":"tree","ms":863.5,"syncMs":690.9,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":2,"bundle":"observer-only","scenario":"tree","ms":1362.2,"syncMs":1194.3,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":2,"bundle":"template-only","scenario":"tree","ms":968.5,"syncMs":753.9,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":2,"bundle":"baseline","scenario":"tree","ms":1463.2,"syncMs":1220,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":3,"bundle":"baseline","scenario":"tree","ms":1586.9,"syncMs":1393.3,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":3,"bundle":"template-only","scenario":"tree","ms":981,"syncMs":771.7,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":3,"bundle":"observer-only","scenario":"tree","ms":1207,"syncMs":1059.2,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":3,"bundle":"patched","scenario":"tree","ms":856.5,"syncMs":666.4,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":4,"bundle":"patched","scenario":"tree","ms":959.9,"syncMs":755,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":4,"bundle":"observer-only","scenario":"tree","ms":1239.9,"syncMs":1100.7,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":4,"bundle":"template-only","scenario":"tree","ms":924,"syncMs":727.5,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":4,"bundle":"baseline","scenario":"tree","ms":1863.2,"syncMs":1603.8,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":5,"bundle":"baseline","scenario":"tree","ms":1514.2,"syncMs":1304.1,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":5,"bundle":"template-only","scenario":"tree","ms":1050.5,"syncMs":839.6,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":5,"bundle":"observer-only","scenario":"tree","ms":1361.9,"syncMs":1209.2,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":5,"bundle":"patched","scenario":"tree","ms":1019.3,"syncMs":858.9,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":6,"bundle":"patched","scenario":"tree","ms":848.5,"syncMs":700.5,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":6,"bundle":"observer-only","scenario":"tree","ms":1710.4,"syncMs":1481.1,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":6,"bundle":"template-only","scenario":"tree","ms":931.9,"syncMs":707,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":6,"bundle":"baseline","scenario":"tree","ms":1659.2,"syncMs":1449.4,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":7,"bundle":"baseline","scenario":"tree","ms":1410.1,"syncMs":1184.4,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":7,"bundle":"template-only","scenario":"tree","ms":956.4,"syncMs":754.1,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":7,"bundle":"observer-only","scenario":"tree","ms":1448,"syncMs":1296.4,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14","query":"scenario=tree&nodes=1400&depth=14","cpu":4,"round":7,"bundle":"patched","scenario":"tree","ms":935.4,"syncMs":783.4,"items":1400,"elements":6908}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":1,"bundle":"baseline","scenario":"tree","ms":3533.3,"syncMs":2364.5,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":1,"bundle":"template-only","scenario":"tree","ms":2856.2,"syncMs":1518.3,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":1,"bundle":"observer-only","scenario":"tree","ms":3534.5,"syncMs":2545.8,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":1,"bundle":"patched","scenario":"tree","ms":2718.7,"syncMs":1612.7,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":2,"bundle":"patched","scenario":"tree","ms":2851.4,"syncMs":1601.5,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":2,"bundle":"observer-only","scenario":"tree","ms":4130.8,"syncMs":2797.3,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":2,"bundle":"template-only","scenario":"tree","ms":3055.7,"syncMs":1750.9,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":2,"bundle":"baseline","scenario":"tree","ms":4211.3,"syncMs":2730.7,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":3,"bundle":"baseline","scenario":"tree","ms":4398.7,"syncMs":2715.7,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":3,"bundle":"template-only","scenario":"tree","ms":2995.2,"syncMs":1808.5,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":3,"bundle":"observer-only","scenario":"tree","ms":4022.9,"syncMs":2824.4,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":3,"bundle":"patched","scenario":"tree","ms":2906,"syncMs":1734,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":4,"bundle":"patched","scenario":"tree","ms":2867.7,"syncMs":1820.9,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":4,"bundle":"observer-only","scenario":"tree","ms":4168.3,"syncMs":2843.4,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":4,"bundle":"template-only","scenario":"tree","ms":3032.2,"syncMs":1773.9,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":4,"bundle":"baseline","scenario":"tree","ms":4551.8,"syncMs":3164.6,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":5,"bundle":"baseline","scenario":"tree","ms":4374.4,"syncMs":2913.6,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":5,"bundle":"template-only","scenario":"tree","ms":3440.6,"syncMs":2235,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":5,"bundle":"observer-only","scenario":"tree","ms":3977.4,"syncMs":2688.6,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":5,"bundle":"patched","scenario":"tree","ms":2740.2,"syncMs":1692.5,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":6,"bundle":"patched","scenario":"tree","ms":2744,"syncMs":1689.2,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":6,"bundle":"observer-only","scenario":"tree","ms":4376.1,"syncMs":2930.9,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":6,"bundle":"template-only","scenario":"tree","ms":2991.3,"syncMs":1708,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":6,"bundle":"baseline","scenario":"tree","ms":3993.6,"syncMs":2747.1,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":7,"bundle":"baseline","scenario":"tree","ms":3969.6,"syncMs":2676.4,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":7,"bundle":"template-only","scenario":"tree","ms":3035,"syncMs":1823.9,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":7,"bundle":"observer-only","scenario":"tree","ms":4475.8,"syncMs":2966,"items":1400,"elements":9508}
+{"label":"tree, 1,400 items, depth 14, toggles","query":"scenario=tree&nodes=1400&depth=14&signals=1","cpu":4,"round":7,"bundle":"patched","scenario":"tree","ms":2869.1,"syncMs":1655.8,"items":1400,"elements":9508}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":1,"bundle":"baseline","scenario":"rows","ms":12103.1,"syncMs":748.7,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":1,"bundle":"template-only","scenario":"rows","ms":11966.4,"syncMs":672.2,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":1,"bundle":"observer-only","scenario":"rows","ms":2670.3,"syncMs":794.5,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":1,"bundle":"patched","scenario":"rows","ms":2506.7,"syncMs":1120,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":2,"bundle":"patched","scenario":"rows","ms":2007.4,"syncMs":581.6,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":2,"bundle":"observer-only","scenario":"rows","ms":2316.6,"syncMs":801.5,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":2,"bundle":"template-only","scenario":"rows","ms":10657.4,"syncMs":584.2,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":2,"bundle":"baseline","scenario":"rows","ms":10637.2,"syncMs":674.9,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":3,"bundle":"baseline","scenario":"rows","ms":10404.3,"syncMs":660.6,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":3,"bundle":"template-only","scenario":"rows","ms":11162.9,"syncMs":706.6,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":3,"bundle":"observer-only","scenario":"rows","ms":2311.7,"syncMs":813.2,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":3,"bundle":"patched","scenario":"rows","ms":2032.8,"syncMs":622.9,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":4,"bundle":"patched","scenario":"rows","ms":2060.5,"syncMs":664.6,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":4,"bundle":"observer-only","scenario":"rows","ms":2196.9,"syncMs":674.4,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":4,"bundle":"template-only","scenario":"rows","ms":11773.3,"syncMs":607.4,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":4,"bundle":"baseline","scenario":"rows","ms":12060.9,"syncMs":731.6,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":5,"bundle":"baseline","scenario":"rows","ms":12070.8,"syncMs":725.3,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":5,"bundle":"template-only","scenario":"rows","ms":10595,"syncMs":685.2,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":5,"bundle":"observer-only","scenario":"rows","ms":2442,"syncMs":743.4,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":5,"bundle":"patched","scenario":"rows","ms":2240.2,"syncMs":683.1,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":6,"bundle":"patched","scenario":"rows","ms":2143.3,"syncMs":694.8,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":6,"bundle":"observer-only","scenario":"rows","ms":2695.3,"syncMs":751.8,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":6,"bundle":"template-only","scenario":"rows","ms":12125.4,"syncMs":747.1,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":6,"bundle":"baseline","scenario":"rows","ms":11296,"syncMs":724.9,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":7,"bundle":"baseline","scenario":"rows","ms":10534.1,"syncMs":599,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":7,"bundle":"template-only","scenario":"rows","ms":11729.1,"syncMs":710.3,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":7,"bundle":"observer-only","scenario":"rows","ms":2109.4,"syncMs":637.9,"items":2800,"elements":3610}
+{"label":"data-for, 400 rows x 7 cells","query":"scenario=rows&rows=400&cells=5","cpu":4,"round":7,"bundle":"patched","scenario":"rows","ms":2212.2,"syncMs":638.5,"items":2800,"elements":3610}

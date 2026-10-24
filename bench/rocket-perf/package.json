@@ -1,0 +1,16 @@
+{
+  "name": "rocket-perf-bench",
+  "private": true,
+  "type": "module",
+  "description": "Before/after benchmark for two Rocket performance fixes: nested html templates and the pending-host MutationObserver.",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node check.mjs",
+    "bench": "node run.mjs",
+    "profile": "node profile.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.10",
+    "playwright": "1.56.1"
+  }
+}

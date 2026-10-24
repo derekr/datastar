@@ -1,0 +1,34 @@
+ok   template-only: same DOM as baseline, scenario=tree&nodes=300&depth=1 (1208 elements)
+ok   template-only: same DOM as baseline, scenario=tree&nodes=300&depth=14 (1486 elements)
+ok   template-only: same DOM as baseline, scenario=tree&nodes=300&depth=14&signals=1 (2042 elements)
+ok   template-only: same DOM as baseline, scenario=rows&rows=100&cells=5 (910 elements)
+ok   template-only: composition cases give the same results and DOM as baseline
+ok   template-only: nested templates: local signals bound and reactive
+ok   template-only: foreign node still scoped and reactive
+ok   template-only: mixed iterable, both items reactive
+ok   template-only: svg in html bound
+ok   template-only: hosts in the page before define: upgrade, bind, project children
+ok   template-only: re-render morphs and stays bound
+ok   observer-only: same DOM as baseline, scenario=tree&nodes=300&depth=1 (1208 elements)
+ok   observer-only: same DOM as baseline, scenario=tree&nodes=300&depth=14 (1486 elements)
+ok   observer-only: same DOM as baseline, scenario=tree&nodes=300&depth=14&signals=1 (2042 elements)
+ok   observer-only: same DOM as baseline, scenario=rows&rows=100&cells=5 (910 elements)
+ok   observer-only: composition cases give the same results and DOM as baseline
+ok   observer-only: nested templates: local signals bound and reactive
+ok   observer-only: foreign node still scoped and reactive
+ok   observer-only: mixed iterable, both items reactive
+ok   observer-only: svg in html bound
+ok   observer-only: hosts in the page before define: upgrade, bind, project children
+ok   observer-only: re-render morphs and stays bound
+ok   patched: same DOM as baseline, scenario=tree&nodes=300&depth=1 (1208 elements)
+ok   patched: same DOM as baseline, scenario=tree&nodes=300&depth=14 (1486 elements)
+ok   patched: same DOM as baseline, scenario=tree&nodes=300&depth=14&signals=1 (2042 elements)
+ok   patched: same DOM as baseline, scenario=rows&rows=100&cells=5 (910 elements)
+ok   patched: composition cases give the same results and DOM as baseline
+ok   patched: nested templates: local signals bound and reactive
+ok   patched: foreign node still scoped and reactive
+ok   patched: mixed iterable, both items reactive
+ok   patched: svg in html bound
+ok   patched: hosts in the page before define: upgrade, bind, project children
+ok   patched: re-render morphs and stays bound
+ok   no page errors
